@@ -1,0 +1,15 @@
+{'messages': 
+[
+    HumanMessage(content="what's (3 + 5) x 12?", additional_kwargs={}, response_metadata={}, id='82390c19-7fed-4c9d-92de-cf895b47be53'), 
+    
+    AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_11a55d202bc84ba0ab0403', 'function': {'arguments': '{"a": 3, "b": 5}', 'name': 'add'}, 'type': 'function', 'index': 0}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 50, 'prompt_tokens': 235, 'total_tokens': 285, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-235b-a22b', 'system_fingerprint': None, 'id': 'chatcmpl-ce949092-3cf4-9b24-9b13-931e0f3b077d', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--25956411-1772-48ba-a8ac-9ee814b8bc63-0', tool_calls=[{'name': 'add', 'args': {'a': 3, 'b': 5}, 'id': 'call_11a55d202bc84ba0ab0403', 'type': 'tool_call'}], usage_metadata={'input_tokens': 235, 'output_tokens': 50, 'total_tokens': 285, 'input_token_details': {}, 'output_token_details': {}}), 
+    
+    ToolMessage(content='8', name='add', id='d7728b1a-32a6-404a-86da-6fcc8c90e06f', tool_call_id='call_11a55d202bc84ba0ab0403'), 
+    
+    AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_cc808de1171748e5a3c777', 'function': {'arguments': '{"a": 8, "b": 12}', 'name': 'multiply'}, 'type': 'function', 'index': 0}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 25, 'prompt_tokens': 274, 'total_tokens': 299, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-235b-a22b', 'system_fingerprint': None, 'id': 'chatcmpl-fdd5473b-ae8f-9f1a-b186-a46d20c5c215', 'service_tier': None, 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--b1d176ac-0c4b-438b-97f3-b74d0323de4a-0', tool_calls=[{'name': 'multiply', 'args': {'a': 8, 'b': 12}, 'id': 'call_cc808de1171748e5a3c777', 'type': 'tool_call'}], usage_metadata={'input_tokens': 274, 'output_tokens': 25, 'total_tokens': 299, 'input_token_details': {}, 'output_token_details': {}}), 
+    
+    ToolMessage(content='96', name='multiply', id='fa3d90e1-6d72-4d06-9109-0b633b1b882e', tool_call_id='call_cc808de1171748e5a3c777'), 
+    
+    AIMessage(content='The result of (3 + 5) x 12 is 96.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 18, 'prompt_tokens': 315, 'total_tokens': 333, 'completion_tokens_details': None, 'prompt_tokens_details': None}, 'model_name': 'qwen3-235b-a22b', 'system_fingerprint': None, 'id': 'chatcmpl-945960b1-956a-9d07-9ae2-7a89e0c8c570', 'service_tier': None, 'finish_reason': 'stop', 'logprobs': None}, id='run--96460da8-a1cd-4e37-98a0-e65283ce6989-0', usage_metadata={'input_tokens': 315, 'output_tokens': 18, 'total_tokens': 333, 'input_token_details': {}, 'output_token_details': {}})
+]
+}
