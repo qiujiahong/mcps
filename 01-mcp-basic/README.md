@@ -161,3 +161,5 @@ A: 建议使用 Python 3.11+ 版本，确保 pip 版本最新。
 - LangChain 文档
 - [阿里云千问文档](https://bailian.console.aliyun.com/?spm=5176.29597918.J_SEsSjsNv72yRuRFS2VknO.2.72b17b08dibMxu&tab=doc#/doc)
 - FastMCP 项目
+
+- [笔者更多MCP经验分享](https://github.com/qiujiahong/mcps)
