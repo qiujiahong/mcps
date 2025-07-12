@@ -65,8 +65,6 @@ async def main():
         print("天气查询结果:")
         print(weather_response)
         
-        # 关闭客户端连接
-        await client.close()
         
     except Exception as e:
         print(f"发生错误: {type(e).__name__}: {e}")
