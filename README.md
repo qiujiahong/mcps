@@ -10,3 +10,8 @@
 
 
 
+## 参考文档
+
+[LangGraph StateGraph](https://www.langgraph.org/docs/langgraph/langgraph_stategraph)
+[FastMCP](https://gofastmcp.com/getting-started/welcome)
+[LangChain-MCP-Adapters](https://github.com/langgraph/langchain-mcp-adapters)
