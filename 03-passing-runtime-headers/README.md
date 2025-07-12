@@ -67,7 +67,7 @@
 
 关键在于 `MultiServerMCPClient` 的配置。我们在服务器定义中添加了一个 `headers` 字典，这些头信息将随每次请求发送出去。
 
-```python:client.py
+```python
 import asyncio
 import os
 from dotenv import load_dotenv
@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
 服务器端使用 `fastmcp.server.dependencies` 中的 `get_http_request` 函数来获取当前的 `starlette.requests.Request` 对象。这个函数必须在工具函数内部调用。
 
-```python:weather_server.py
+```python
 # weather_server.py
 from fastmcp import FastMCP
 from fastmcp.server.dependencies import get_http_request
