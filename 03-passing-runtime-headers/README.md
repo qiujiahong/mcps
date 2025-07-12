@@ -20,7 +20,7 @@
 
 - **Python 3.11+**
 - **MCP (Model Context Protocol)**
-- **FastMCP**：`fastmcp` 库，特别是其依赖注入功能 `get_http_request`。
+- **[FastMCP](https://gofastmcp.com/getting-started/welcome)**：`fastmcp` 库，特别是其依赖注入功能 `get_http_request`。
 - **LangChain & LangGraph**：用于构建和运行客户端的智能代理。
 - **Starlette**：`FastMCP` 底层使用的 ASGI 框架，提供了 `Request` 对象。
 
