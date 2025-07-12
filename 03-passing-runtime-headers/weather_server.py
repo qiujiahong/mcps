@@ -1,6 +1,4 @@
 # weather_server.py
-# from typing import List
-# from mcp.server.fastmcp import FastMCP
 from fastmcp import FastMCP
 from fastmcp.server.dependencies import get_http_request
 from starlette.requests import Request
